@@ -1,0 +1,30 @@
+body {
+    background-color: #fffbf7;
+    align-items: center;
+}
+h1 {
+    color: rgb(111, 24, 125);
+    text-align: center;
+}
+p {
+    color: #46484c;
+    text-align: center;
+}
+form {
+    text-align: center;
+}
+input {
+    text-align: center;
+    color: rgb(76, 0, 255);
+    align-self: center;
+}
+button {
+    color: #fff;
+    background-color: #025157;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
