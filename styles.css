@@ -1,6 +1,5 @@
 body {
     background-color: #fffbf7;
-    align-items: center;
 }
 h1 {
     color: rgb(111, 24, 125);
@@ -20,39 +19,36 @@ input {
     color: rgb(76, 0, 255);
     align-self: center;
 }
-header{
-    display: flex;
-    align-items: center;
-    margin: 15px;
-}
 button {
     color: #fff;
     background-color: #025157;
+    margin-right: 1rem;
+}
+/* header {
+    position: fixed;
+} */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    background-color: rgb(247, 239, 229);
+    /* position: fixed; */
 }
 a {
-    text-decoration: none;
     padding: 12px;
-    width: 10%;
     height: 100%;
-    display: inline;
-}
-nav {
-    display: inline;
-    width: 75%;
-    height: 100%;
-    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 ul {
-    display: flex;
     justify-content: center;
 }
 li {
     display: inline;
     margin: 15px;
 }
-.navButton {
-    float: right;
-    width: 15%;
-    height: 100%;
-    text-align: right;
+.catDog {
+    display: flex;
+	justify-content: center;
 }
