@@ -24,16 +24,12 @@ button {
     background-color: #025157;
     margin-right: 1rem;
 }
-/* header {
-    position: fixed;
-} */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 5rem;
     background-color: rgb(247, 239, 229);
-    /* position: fixed; */
 }
 a {
     padding: 12px;
@@ -48,6 +44,28 @@ li {
     display: inline;
     margin: 15px;
 }
+video {
+    margin: 2rem;
+}
+
+article > h1 {
+    color: #025157;
+}
+.explanatory-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.promo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 1rem;
+    max-width: 75%;
+}
+
 .catDog {
     display: flex;
 	justify-content: center;
