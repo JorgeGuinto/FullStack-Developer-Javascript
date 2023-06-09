@@ -57,6 +57,18 @@ video {
 article > h1 {
     color: #025157;
 }
+
+.fixed-header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.title {
+    padding-top: 5rem;
+}
+
 .explanatory-video {
     display: flex;
     flex-direction: column;
