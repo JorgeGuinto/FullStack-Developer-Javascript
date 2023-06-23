@@ -102,6 +102,8 @@ section h1 {
 }
 
 .reto8-1 h5:hover {
-    transition: color 1s ease-in-out;    
+    transition: color 1s ease-in-out;
+    transition: font-size 1s ease-in-out;
     color: #67b54b !important;
+    font-size: 2.5em;
 }
